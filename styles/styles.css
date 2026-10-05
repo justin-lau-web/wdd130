@@ -1,0 +1,47 @@
+*{
+    border: 1px;
+}
+
+img{
+    width: 45%;
+
+}
+body{
+    text-align: center;
+    margin: 0;
+}
+#content{
+    background-color: rgba(7, 110, 154, 0.395); /*change later*/
+    max-width:1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header, footer{
+    background-color:white;
+    padding: 20px;
+}
+
+nav a { 
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+    font-size: 1.5em ;
+}
+nav a:hover {
+    color: purple;
+    background: white;
+}
+p {
+    font-size: 1.5em;
+}
+#second {
+    font-size: 3em;
+}
+.emphasis {
+    color: purple;
+}
+span{
+    color: green;
+}
