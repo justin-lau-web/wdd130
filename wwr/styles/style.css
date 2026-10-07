@@ -51,6 +51,8 @@ nav a {
     border: 1px solid black;
     font-size: 1.5em;
     padding: 35px;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 nav a:hover {
     background-color: #04C4D9;
