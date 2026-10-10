@@ -110,6 +110,7 @@ main section img {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    display: inline-block;
 }
 .book:hover, .join:hover {
     background-color: #04C4D9;
