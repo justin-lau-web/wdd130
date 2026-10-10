@@ -181,6 +181,7 @@ header {
     color: #FFFFFF;
     display: grid;
     grid-template-columns: 150px auto;
+    opacity: 0.95;
 }
 #background {
     background-color: #032340;
