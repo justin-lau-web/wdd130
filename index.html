@@ -2,33 +2,48 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <!--This line below is a must have. Alters page according to the device being used-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portal Page</title>
         <link href="styles/styles.css" rel="stylesheet">
-        
     </head>
     <body>
         <div id="content">
-            <header>
-                <nav>
-                    <!--Navigation-->
-                    <a href="http://www.byui.edu" target="_blank">My University</a>
-                            <!--Attributes-->              <!--Name or what it'll be titled-->
-                    <!-- <a href=""assignments.html">Assignments</a> -->
-                </nav>
+            <header class="my-header">
+                <div class="logo_link_background">
+                    <div class="logo-left">
+                        <img class ="logo1" src="images/teal_maple_leaf_sigil.png" alt="Left Logo"/>
+                    </div>
+                    <div class="logo-right">
+                        <img class ="logo2" src="images/teal_maple_leaf_sigil.png" alt="Right Logo"/>
+                    </div>
+                    <div class="logo-center">
+                        <img class ="logo3" src="images/teal_maple_leaf_sigil.png" alt="Right Logo"/>
+                    </div>
+                    <!-- <img class ="anima-background" src="media/rainy_forest_clip.mp4"/> -->
+                </div>
+                <div class="video-bg">
+                    <video autoplay loop muted playsinline poster="forest-fallback.jpg">
+                        <source src="rainy-forest.webm" type="video/webm">
+                        <source src="rainy-forest.mp4" type="video/mp4">
+                    </video>
+                </div>
             </header>
-            <main>
-                <!--Header 1 in <main> -->
-                <h1>Justin Lau</h1>
-                <img src="images/ball-peen_hammer.png" alt="Justin's hammer">
-                <p>I like <span>hamnmners</span></p>
-                <p id="second"> This is my second paragraph
-                </p>
+            <main class="home-grid">
+                <div id="background"></div>
+                <a id="pic-nav-wwr" href="wwr/index.html">
+                    <img class ="WWR" src="images/final_logo.png"/>
+                </a>
+                <a id="pic-nav-ice" href="ice/index.html">
+                    <img class ="ICE" src="images/pingu_ice.png"/>
+                </a>
+                <a id="pic-nav-about-me" href="ice/index.html">
+                    <img class ="ABOUT" src="images/about_me.png"/>
+                </a>
+
             </main>
             <footer>
             <p class="emphasis">My hammers only - Me/Myself/I</p>
+            </footer>
         </div>
-        </footer>
     </body>
 </html>
