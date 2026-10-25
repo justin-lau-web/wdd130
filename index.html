@@ -7,42 +7,59 @@
         <link href="styles/styles.css" rel="stylesheet">
     </head>
     <body>
+        <div class="background-image">
+            <img src="images/misty-green-mountain-forest.png" alt="">
+        </div>
         <div id="content">
             <header class="my-header">
                 <div class="logo_link_background">
                     <div class="logo-left">
                         <img class ="logo1" src="images/teal_maple_leaf_sigil.png" alt="Left Logo"/>
+                        <p class="title-p">Justin Lau's Portal Page</p>
                     </div>
-                    <div class="logo-right">
-                        <img class ="logo2" src="images/teal_maple_leaf_sigil.png" alt="Right Logo"/>
-                    </div>
-                    <div class="logo-center">
-                        <img class ="logo3" src="images/teal_maple_leaf_sigil.png" alt="Right Logo"/>
-                    </div>
-                    <!-- <img class ="anima-background" src="media/rainy_forest_clip.mp4"/> -->
-                </div>
-                <div class="video-bg">
-                    <video autoplay loop muted playsinline poster="forest-fallback.jpg">
-                        <source src="rainy-forest.webm" type="video/webm">
-                        <source src="rainy-forest.mp4" type="video/mp4">
-                    </video>
                 </div>
             </header>
-            <main class="home-grid">
-                <div id="background"></div>
-                <a id="pic-nav-wwr" href="wwr/index.html">
-                    <img class ="WWR" src="images/final_logo.png"/>
-                </a>
-                <a id="pic-nav-ice" href="ice/index.html">
-                    <img class ="ICE" src="images/pingu_ice.png"/>
-                </a>
-                <a id="pic-nav-about-me" href="ice/index.html">
-                    <img class ="ABOUT" src="images/about_me.png"/>
-                </a>
+            <div id="background2">
+                <nav class="nav-dropdown">
+                    <div class="nav-tab">Navigation ▼</div>
 
+                    <div class="nav-links">
+                        <a class="cool-links" href="index.html">Home</a>
+                        <a class="cool-links" href="wwr/index.html">WWR</a>
+                        <a class="cool-links" href="ice/index.html">ICE</a>
+                        <a class="cool-links" href="#about">About Me</a>
+                    </div>
+                </nav>
+            </div>
+            <div id="background"></div>
+            <main class="home-grid">
+                <div class="buttons">
+                    <a href="home/index.html">
+                        <img class ="HOME" src="images/home_icon_transparent.png" alt="House Icon"/>
+                    </a>
+                    <p class="button-description"><strong class="alert-home">My Home Page</strong></p>
+                </div>
+                <div class="buttons">
+                    <a href="wwr/index.html">
+                        <img class ="WWR" src="images/final_logo.png" alt="WWR logo"/>
+                    </a>
+                    <p class="button-description"><strong class="alert-wwr">White Water Rafting Site</strong></p>
+                </div>
+                <div class="buttons">
+                    <a href="ice/index.html">
+                        <img class ="ICE" src="images/pingu_ice.png" alt="Pingu sad.."/>
+                    </a>
+                    <p class="button-description"><strong class="alert-ice">ICE Challenges</strong></p>
+                </div>
+                <div class="buttons">
+                    <a href="about_me/index.html">
+                        <img class ="ABOUT" src="images/about_me.png" alt="Me"/>
+                    </a>
+                    <p class="button-description"><strong class="alert-me">Stuff About Mwah</strong></p>
+                </div>
             </main>
             <footer>
-            <p class="emphasis">My hammers only - Me/Myself/I</p>
+                <p>© 2026 Justin Lau. All rights reserved.</p>
             </footer>
         </div>
     </body>
