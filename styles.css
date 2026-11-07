@@ -328,6 +328,10 @@ p {
     margin: 0;
     padding: 20px;
 }
+.home-grid-ICE > .buttons-ICE:last-child {
+    grid-column: 1 / 3;
+    justify-self: center;
+}
 #footer {
     background-color: var(--primary-color-ICE);
     color: var(--text-color-ICE);
